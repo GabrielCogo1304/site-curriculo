@@ -1,9 +1,14 @@
+body {
+    background: linear-gradient(to right, #acacbd, #ffffff);
+    font-family: Arial, sans-serif;
+}
+
 .topo {
     background-color: rgb(185, 185, 185);
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
     border: 2px solid #59636b;
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -55,7 +60,7 @@
 
 .formaçao {
     text-align: center;
-    color: #263238;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -69,7 +74,7 @@ table {
 }
 
 th {
-    background-color: #808080;
+    background-color: #464545;
     color: white;
 }
 
@@ -117,11 +122,25 @@ th, td {
     text-align: left;
 }
 
+.bloco {
+    background-color: #b6e1ec;
+    width: 605px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+a[href="#inicio"] {
+    display: block;
+    text-align: left;
+    margin: 20px 0;
+}
+
 #rodape {
-    background: linear-gradient(to right, #848b92, #506a7c);
+    background: linear-gradient(to right, #9bb4cc, #506a7c);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
     margin-top: 100px;
 }
-
