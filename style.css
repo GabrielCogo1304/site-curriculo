@@ -1,0 +1,127 @@
+.topo {
+    background-color: rgb(185, 185, 185);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #59636b;
+    width: 80%;
+    margin: auto;
+}
+
+.Cabecalho {
+    text-align: center;
+    color: #263238;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.imagem img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.Resumo {
+    padding: 10px 20px;
+    border-bottom: 2px solid #59636b;
+}
+
+.contato {
+    margin-left: 0;
+    padding: 10px 20px;
+    
+}
+
+.dados {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.lado-da-foto {
+    width: 500px;
+    background-color: rgb(138, 161, 180);
+    padding: 30px;
+    border: 1px solid #59636b;
+    border-radius: 10px;
+}
+
+.contato h2 {
+    color: #263238;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.formaçao {
+    text-align: center;
+    color: #263238;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.formaçao {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #808080;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.experiencia {
+    text-align: center;
+}
+
+.experiencia + ul {
+    width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.tecnica{
+    text-align: center;
+}
+
+.tecnica + ul {
+    width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.certificado{
+    text-align: center;
+}
+
+.certificado + ul {
+    width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.idioma{
+    text-align: center;
+}
+
+.idioma + ul {
+    width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+#rodape {
+    background: linear-gradient(to right, #848b92, #506a7c);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+
